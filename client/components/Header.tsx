@@ -49,10 +49,6 @@ export default function Header() {
             </div>
           </div>
 
-          {/* Mobile menu button - hidden for now, can be added later */}
-          <div className="md:hidden">
-            {/* Mobile menu implementation can be added here */}
-          </div>
         </div>
       </div>
     </header>
