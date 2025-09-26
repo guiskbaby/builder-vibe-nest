@@ -13,6 +13,12 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'ar-one-sans': ['AR One Sans', 'sans-serif'],
+        'archivo-black': ['Archivo Black', 'sans-serif'],
+        'archivo-narrow': ['Archivo Narrow', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
