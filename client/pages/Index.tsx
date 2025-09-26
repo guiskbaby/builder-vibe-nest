@@ -4,13 +4,19 @@ import Header from '../components/Header';
 export default function Index() {
   return (
     <div className="min-h-screen relative bg-neutral-100 overflow-hidden">
-      {/* Background Image with Overlay */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F25bf3a275e0a4a41be8becc39f238a2e%2Fcd0169bc5c204e3f8776af27f457f5c9?format=webp&width=1600)',
-        }}
-      >
+      {/* Background Video with Overlay */}
+      <div className="absolute inset-0">
+        <video
+          className="w-full h-full object-cover"
+          src="https://cdn.builder.io/o/assets%2F25bf3a275e0a4a41be8becc39f238a2e%2F11fd0d0e3d4d4d208ddc8485d486a527?alt=media&token=0817346d-b3ad-4def-8d33-93848ef95db6&apiKey=25bf3a275e0a4a41be8becc39f238a2e"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          poster="https://cdn.builder.io/api/v1/image/assets%2F25bf3a275e0a4a41be8becc39f238a2e%2Fcd0169bc5c204e3f8776af27f457f5c9?format=webp&width=1600"
+          aria-hidden="true"
+        />
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
 
