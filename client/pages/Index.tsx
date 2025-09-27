@@ -17,7 +17,6 @@ export default function Index() {
           poster="https://cdn.builder.io/api/v1/image/assets%2F25bf3a275e0a4a41be8becc39f238a2e%2Fcd0169bc5c204e3f8776af27f457f5c9?format=webp&width=1600"
           aria-hidden="true"
         />
-        <div className="absolute inset-0 bg-black/40"></div>
       </div>
 
       {/* Header */}
